@@ -7,7 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0120D30C902ED17C6D4DECE4 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD5BA6F0E2D73685F02D6D /* Icon.swift */; };
+		027C081339B1F9399DB04AAB /* Log4S.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3488AF661F879F040A49A09D /* Log4S.swift */; };
+		0EF183DD94EDCB3F6B5AC293 /* Kenmore_Operations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B3203ED2BAFBE8162FB2C9 /* Kenmore_Operations.framework */; };
+		0F5ADF4060B1A46BF8DF1E4B /* AppCleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A7F0A7CDE7427EEFF0EFC /* AppCleaner.swift */; };
+		122005696E27D8DA457B26CF /* CreatorListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C5F90219E5D2F06F76BA6E /* CreatorListResponse.swift */; };
+		13940C4A4157C8A871F08539 /* ProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848015B43425F721D28F264F /* ProgressStore.swift */; };
+		17FB643DF6495D513EE4A858 /* DeliveryKeyQualityLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1D4F4F78F90220ACBE8EE1 /* DeliveryKeyQualityLevel.swift */; };
+		1D09A66F1859D122C0CBDD26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B367C41887222DADDB306136 /* Foundation.framework */; };
+		2131A1D7A5CA953E54AFFD5D /* ContentVideoOperationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C6545BB4BA136B8C1AD27 /* ContentVideoOperationStrategy.swift */; };
+		281ED20C55525B28320B7FBB /* QualityLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04EB1450536757E2CA694E /* QualityLevel.swift */; };
+		286B952BFE3D77686E486601 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B367C41887222DADDB306136 /* Foundation.framework */; };
+		28F039629E2A6B81BDE06C48 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B18EB6B23F76D313CF463 /* FeedItem.swift */; };
+		2C95BAA88A9784FC11AF4C01 /* CreatorFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A549DC96CDD843BA662B003 /* CreatorFeed.swift */; };
+		2CD4EB09265E09FD55B2ED66 /* Bool+StringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46A730ADE56BE12DEF490FC /* Bool+StringTest.swift */; };
+		2E8979027D3ADA80486A6869 /* VideoMetadataOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F91557D59FC189689E1299 /* VideoMetadataOperation.swift */; };
+		2ECCBF8BACBE8BF89E5BF97C /* SubscriptionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A225C8F116087B8689C99E3 /* SubscriptionResponse.swift */; };
+		2F4A4ACEA9B23AB400DB61E0 /* CreatorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11724AD351114B7577F102C7 /* CreatorRequest.swift */; };
+		34FC46891610E1A462659A12 /* ContentVideoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5183514B075954007E1BF4 /* ContentVideoRequest.swift */; };
+		366395FFC8821A0A84DCC241 /* Kenmore_DataStores.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9D45A326224C2812E3BFF6 /* Kenmore_DataStores.framework */; };
+		377D6A8821581311C2A113D9 /* OperationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA21268138B0BF7E889119A /* OperationStrategy.swift */; };
+		37B2A2F9F0D5A5E1AE8A2A63 /* OperationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CDEBE2165F1CBDE54337DA /* OperationManager.swift */; };
+		37E8B5560BEA7ECD81E786AC /* Kenmore_DataStores.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9D45A326224C2812E3BFF6 /* Kenmore_DataStores.framework */; };
+		38E412758147E7EA80F3FFC1 /* Kenmore_Utilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0B2EA653B7D0EEF6D2BB3D0 /* Kenmore_Utilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		393CC94B9A2E0AD2BA5C39D6 /* ContentVideoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0957125914AFD98D9800F39A /* ContentVideoResponse.swift */; };
+		3C4B2466ED6EE8EC7D67CB6E /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793EB0EC67E8F01624EC4A7C /* LoginResponse.swift */; };
+		4141D591AD050A84FBD89BE2 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CA5AA2F787F1B515E2BCDE /* UserStore.swift */; };
+		4174D4FB318364F911AC29A6 /* LogoutRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3C98B9A90430A98D0A888B /* LogoutRequest.swift */; };
+		44B9BEB390C84EB96A53E54B /* KeychainAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0AD382A89263AFED98E1CB /* KeychainAccess.swift */; };
+		44FACB84729190CD63749360 /* LoginOperationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09011BF0222879F7E2406A86 /* LoginOperationStrategy.swift */; };
+		4581352EEA503119D6205130 /* ResourceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AFED9497AF336A7D6D8BD4 /* ResourceData.swift */; };
+		464B255B66681A10E249D8B1 /* LiveStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E680F070C80F524CBFE4E8EA /* LiveStream.swift */; };
+		495299EC171D6E65B70EE1B9 /* QualityLevelResourceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5959658C728B4B3733E8BC78 /* QualityLevelResourceData.swift */; };
+		4BB18542C0216EC21756C274 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B367C41887222DADDB306136 /* Foundation.framework */; };
+		4C99189B02FD60B2998729A8 /* SortOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DE3C3FFA98D5196171788F /* SortOrder.swift */; };
+		50C00A0871644AB92C5336B8 /* VodDeliveryKeyOperationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0BAF775977311F2501A43 /* VodDeliveryKeyOperationStrategy.swift */; };
+		55B50787F0F77F1814BA3E0F /* SessionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CD2E9A5B5B4D09994F89F /* SessionFactory.swift */; };
+		5673DDE5CCC3A3F2E29D3D4D /* OperationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2365B68034F04EAAA13D0024 /* OperationResponse.swift */; };
+		58621E040EBDC1A88D67F1A1 /* Kenmore_Models.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 699FF990AC85067E7F0ABFA7 /* Kenmore_Models.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5C29D8F05501205CF7843777 /* StrategyBasedOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C74A61FD02BA0B9EAB6E3C2 /* StrategyBasedOperation.swift */; };
+		5C982086C989F4048309F438 /* DeliveryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2052F3BD89A2F04C8305D1 /* DeliveryKey.swift */; };
 		5E0E516A29D3F6B3006744E4 /* FeedItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E0E516929D3F6B3006744E4 /* FeedItemCollectionViewCell.xib */; };
+		5E11889F2F7E2F90000B6CF1 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = D97D5AA04879C0B58F41FE77 /* Logging */; };
+		5E1188A02F7E2F90000B6CF1 /* UICKeyChainStore in Frameworks */ = {isa = PBXBuildFile; productRef = 3C8390A8FDA4ED902A92BA1D /* UICKeyChainStore */; };
+		5E1188A12F7E2F90000B6CF1 /* Cache in Frameworks */ = {isa = PBXBuildFile; productRef = FF0DC6E1FBA067191C5653FB /* Cache */; };
+		5E1188A22F7E2F90000B6CF1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B8039BA78A41045C49680DA1 /* Alamofire */; };
+		5E1188A32F7E2F90000B6CF1 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 851FA59DE44932DE7AA4A160 /* AlamofireImage */; };
+		5E1188A42F7E2F90000B6CF1 /* Cache in Frameworks */ = {isa = PBXBuildFile; productRef = 3C20EDC70DCF18701CF209DC /* Cache */; };
 		5E1FD6F329DA35C60015AE6F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FD6F229DA35C60015AE6F /* RootViewController.swift */; };
 		5E1FD6F529DA62B10015AE6F /* SearchContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FD6F429DA62B10015AE6F /* SearchContainerViewController.swift */; };
 		5E1FD6F729DA65A80015AE6F /* CreatorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FD6F629DA65A80015AE6F /* CreatorDataSource.swift */; };
@@ -43,7 +89,6 @@
 		5E507C0629CFAD66006751F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E507C0429CFAD66006751F3 /* LaunchScreen.storyboard */; };
 		5E507C1B29CFAD66006751F3 /* KenmoreAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E507C1A29CFAD66006751F3 /* KenmoreAppUITests.swift */; };
 		5E507C1D29CFAD66006751F3 /* KenmoreAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E507C1C29CFAD66006751F3 /* KenmoreAppUITestsLaunchTests.swift */; };
-		5E5155E129EE7FB4009B68EA /* AsyncObjects in Frameworks */ = {isa = PBXBuildFile; productRef = 5E5155E029EE7FB4009B68EA /* AsyncObjects */; };
 		5E5155EB29EE7FB4009B68EA /* ParallaxView in Frameworks */ = {isa = PBXBuildFile; productRef = 5E5155EA29EE7FB4009B68EA /* ParallaxView */; };
 		5E5155ED29EE7FB4009B68EA /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 5E5155EC29EE7FB4009B68EA /* SwiftDate */; };
 		5E5155EF29EE7FB4009B68EA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5E5155EE29EE7FB4009B68EA /* Alamofire */; };
@@ -65,15 +110,97 @@
 		5EC057A629D603D400D775EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC057A529D603D400D775EB /* LoginViewController.swift */; };
 		5EC057B629D6848E00D775EB /* ViewController+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC057B529D6848E00D775EB /* ViewController+Border.swift */; };
 		5EC057B829D689E700D775EB /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC057B729D689E700D775EB /* LoginButton.swift */; };
-		5EE031452CBDD8A20028A0A8 /* Kenmore-Models in Frameworks */ = {isa = PBXBuildFile; productRef = 5EE031442CBDD8A20028A0A8 /* Kenmore-Models */; };
-		5EE031472CBDD8B00028A0A8 /* Kenmore-Utilities in Frameworks */ = {isa = PBXBuildFile; productRef = 5EE031462CBDD8B00028A0A8 /* Kenmore-Utilities */; };
-		5EE0314B2CBDD8B00028A0A8 /* Kenmore-Operations in Frameworks */ = {isa = PBXBuildFile; productRef = 5EE0314A2CBDD8B00028A0A8 /* Kenmore-Operations */; };
-		5EE031552CBDDEFB0028A0A8 /* Kenmore-DataStores in Frameworks */ = {isa = PBXBuildFile; productRef = 5EE031542CBDDEFB0028A0A8 /* Kenmore-DataStores */; };
 		5EEF783529EB6090008AF7FB /* BrowseCollectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF783429EB6090008AF7FB /* BrowseCollectionManager.swift */; };
 		5EFD929729D90D15007E8374 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFD929629D90D15007E8374 /* AVKit.framework */; };
+		5FDF8C96D49B961BCAF28F5D /* Kenmore_Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 699FF990AC85067E7F0ABFA7 /* Kenmore_Models.framework */; };
+		61E7E509A9822E6B7EDDF84A /* LogoutResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD79EF13285D61730F6F718 /* LogoutResponse.swift */; };
+		62D4CA9E69F8EC889597CBD4 /* CreatorListOperationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBF7824A1D04F1B6E0871EE /* CreatorListOperationStrategy.swift */; };
+		6623D261F8DEF79CA4094BD0 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E12566E576329D024DD4E6 /* Owner.swift */; };
+		6CAF99F21FFDE5E9FF72441A /* FloatplaneEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50888AF04A4421C782C3C2E /* FloatplaneEncoder.swift */; };
+		76EB2B0B35DF1A01CE5DE22E /* Kenmore_Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 699FF990AC85067E7F0ABFA7 /* Kenmore_Models.framework */; };
+		78F2B003070AD63D46328302 /* String+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE0D1081036B93195B4486 /* String+Class.swift */; };
+		7D33869F268BD51ECD4C1E3A /* LiveDeliveryKeyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22991346681B2947C3936F /* LiveDeliveryKeyRequest.swift */; };
+		82512AD45965FF280694606D /* ContentCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC5910271E5BCDDA8530BBA /* ContentCreator.swift */; };
+		89B3901F670445A15877B1DA /* QualityLevelParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80248BA8895DEB13321B3BD /* QualityLevelParams.swift */; };
+		8A76123AFE15C39B32D7F239 /* FloatplaneDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586FDE245FA60C0B512C8E24 /* FloatplaneDecoder.swift */; };
+		8B7538A6464F869FF1171C2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B367C41887222DADDB306136 /* Foundation.framework */; };
+		8CEE19471B28CEB7AB29433C /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE175C459AA50F2B385FE3B5 /* LoginRequest.swift */; };
+		8FDFD3C62559BCE8EC23A970 /* CreatorOperationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6678ED66CEBA439DB09BE99D /* CreatorOperationStrategy.swift */; };
+		91CCBCC9003536BA8B31A936 /* Kenmore_Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B2EA653B7D0EEF6D2BB3D0 /* Kenmore_Utilities.framework */; };
+		91EB8F4E2FECCDBD6C626D5E /* ContentFeedOperationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9BC8E1E6652C08BF46C65A /* ContentFeedOperationStrategy.swift */; };
+		91F731D2E5C08C4F996F05EC /* Kenmore_Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B2EA653B7D0EEF6D2BB3D0 /* Kenmore_Utilities.framework */; };
+		94C54CC5AF624AECAA47016F /* Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D59AB1D734C8F85BA5285C /* Creator.swift */; };
+		94E1E5B9081738A0CFDE56F9 /* Kenmore_DataStores.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9D45A326224C2812E3BFF6 /* Kenmore_DataStores.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9653DC410AFA65E9387520D8 /* String+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D3BF6C33D508E898108EC /* String+HTML.swift */; };
+		98636A8F5458A1E12F9AD34C /* ImageCacheConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E4DF5AE76DDADF6CF3FAAB /* ImageCacheConfig.swift */; };
+		9A7A07CCE6DDDDC0928277DC /* PostType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A60C3C5C12F3F6ED5BF524 /* PostType.swift */; };
+		9D842BA5228C9607C866B1A6 /* VodDeliveryKeyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CC14BD71B4439ED7EA31D8 /* VodDeliveryKeyRequest.swift */; };
+		9E221F66BA8191A1B43E16D6 /* Kenmore_Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B2EA653B7D0EEF6D2BB3D0 /* Kenmore_Utilities.framework */; };
+		A1489512919EA6162E112A1F /* OperationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D30BEA9E67A2FD6B52A4C39 /* OperationRequest.swift */; };
+		A3CE0F7836889CBB5D28E275 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524EBC93E50D00F4E73B1746 /* SearchResponse.swift */; };
+		A47A59183EF6E62323B583AA /* VideoMetadataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ACD80E0CBFDEB3EE695911 /* VideoMetadataRequest.swift */; };
+		A64F7C32D679482BEAB2004F /* Kenmore_Operations.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 68B3203ED2BAFBE8162FB2C9 /* Kenmore_Operations.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A76C6BD3E03EF68D48E381B3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E352D123BC9D70EC1C6BAB3 /* Category.swift */; };
+		AB9F51DAB5D6F7E430E11F5C /* ImageGrabber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355E7665D4CC30DEF135C14 /* ImageGrabber.swift */; };
+		AD507FF38A01A0F5669EB21E /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764948E7C361EA61690B7E31 /* SearchRequest.swift */; };
+		AF7307EE7B4B21D33BB3E7DD /* OperationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98361CDBC4184EB571854D0 /* OperationConstants.swift */; };
+		AF93817058D860A3458AD8A2 /* PlaybackSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1417E4981294F7356C7D42 /* PlaybackSpeed.swift */; };
+		B0990A2A0637437FB2237628 /* StreamURLFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE58583E5499416226B339C4 /* StreamURLFactory.swift */; };
+		B3D8B9BCAD3B5D2E5619B5E0 /* GetFirstPageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F29883A9DF8D05F59ADC638 /* GetFirstPageOperation.swift */; };
+		B4AD416348B86A37158DE856 /* GetFirstPageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F26811D23B8E8230C0CCEE9 /* GetFirstPageRequest.swift */; };
+		BE79F62FA72424632AE47BFC /* GetFirstPageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0C30AFF826D27901DB7A6 /* GetFirstPageResponse.swift */; };
+		BE7F56CEFBFEBD3EA1184973 /* BaseCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB4F511E4AE1241F759C4B6 /* BaseCreator.swift */; };
+		C75A870179D8238A1B9EF324 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21AB67E3973237D9515A56 /* Channel.swift */; };
+		CCAA856224AE4C779F838C53 /* CacheableStrategyBasedOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE7C8656CE5E443967081 /* CacheableStrategyBasedOperation.swift */; };
+		E0E8B34EB8283AA179A450D8 /* DiskStorageWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5000CE19869E26C49B5541E2 /* DiskStorageWrapper.swift */; };
+		E17E4F2EC0B5E444800E40A6 /* Kenmore_Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 699FF990AC85067E7F0ABFA7 /* Kenmore_Models.framework */; };
+		E56636B1942EC67433F1BA36 /* LoginFailedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493BE8E1F65B388F843FAE60 /* LoginFailedResponse.swift */; };
+		E5D78E4E461D0DB59683EA15 /* UserNotificationSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7653F4ED661E075A01F91504 /* UserNotificationSetting.swift */; };
+		E6923E6E442700E4CC2611A9 /* LiveDeliveryKeyOperationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A7417CB90D479E2F93424 /* LiveDeliveryKeyOperationStrategy.swift */; };
+		E7BF6989736AC0E7923C2DBA /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BF5A2E2CD9969275AA98CE /* Operation.swift */; };
+		EFF1B2C76E560729CFE11BC2 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452C9E2BC6E642D8778F027 /* AppSettings.swift */; };
+		F08B66FB92CD72A5F6E29C79 /* Kenmore_Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 699FF990AC85067E7F0ABFA7 /* Kenmore_Models.framework */; };
+		F0B8BC3C301306DA64B2142A /* CreatorListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7704EDAC75016915712F884C /* CreatorListRequest.swift */; };
+		F3589967FC1122D5A6694176 /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CDC25258834371BA783D87 /* Metadata.swift */; };
+		F43A97E2683FCC22239447F2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE863BE5D853FF687D16470 /* User.swift */; };
+		F71A49163F3B6C17A61D1B3F /* VideoMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC8CFDF7E0D67758B93D6E0 /* VideoMetadata.swift */; };
+		F7DAD7FEF4DF13F5DE2CF10C /* LogoutOperationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C863B01C94A375AC74AC20 /* LogoutOperationStrategy.swift */; };
+		F85F9CDD918A73C504E20E30 /* VideoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B6C6DF14C0232079C13215 /* VideoType.swift */; };
+		FAA707E2D865E5D938326DE0 /* SubscriptionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8F1DFC0474DE6F42108D7 /* SubscriptionRequest.swift */; };
+		FAD8E6C9E637E75BE3DAB48D /* SearchOperationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9C41046DE94D094DCF7A1 /* SearchOperationStrategy.swift */; };
+		FE0DDAB542472DBF841C2503 /* SubscriptionOperationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7544ED5822544635C3ACA946 /* SubscriptionOperationStrategy.swift */; };
+		FF17AF9E7E43CBB201A1F377 /* ContentFeedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E49DB6088E5DF1227A9DC /* ContentFeedRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		18D20B24C44F96B07CDB581C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E0C3CCA29CF766700C71A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C79FB3DA2DE819E13641DF26;
+			remoteInfo = "Kenmore-DataStores";
+		};
+		26905DAE6986CFB77EA96BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E0C3CCA29CF766700C71A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C79FB3DA2DE819E13641DF26;
+			remoteInfo = "Kenmore-DataStores";
+		};
+		4B0924D4BE6565A761ECBC30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E0C3CCA29CF766700C71A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 809C2942BA1BA39955E4D1A0;
+			remoteInfo = "Kenmore-Models";
+		};
+		5A38A77776B0A023290F206E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E0C3CCA29CF766700C71A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 809C2942BA1BA39955E4D1A0;
+			remoteInfo = "Kenmore-Models";
+		};
 		5E507C0D29CFAD66006751F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E0C3CCA29CF766700C71A19 /* Project object */;
@@ -88,9 +215,105 @@
 			remoteGlobalIDString = 5E507BF529CFAD65006751F3;
 			remoteInfo = FloatplaneApp;
 		};
+		6746195651CB6977DED2E126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E0C3CCA29CF766700C71A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 320616D8F0DEA583491FF6E3;
+			remoteInfo = "Kenmore-Utilities";
+		};
+		705A669B6D2E840B753BEFE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E0C3CCA29CF766700C71A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 809C2942BA1BA39955E4D1A0;
+			remoteInfo = "Kenmore-Models";
+		};
+		8E2FB7171D75914FE1F4BFE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E0C3CCA29CF766700C71A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FAF5BC152BC53EF6E96F4A;
+			remoteInfo = "Kenmore-Operations";
+		};
+		92CF85CF51CF5F421B4D7B5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E0C3CCA29CF766700C71A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 320616D8F0DEA583491FF6E3;
+			remoteInfo = "Kenmore-Utilities";
+		};
+		D386728A3AEB1049F4E387DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E0C3CCA29CF766700C71A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 809C2942BA1BA39955E4D1A0;
+			remoteInfo = "Kenmore-Models";
+		};
+		DBF92841561D41CDD1BBE89E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E0C3CCA29CF766700C71A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 320616D8F0DEA583491FF6E3;
+			remoteInfo = "Kenmore-Utilities";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BC0F73FA28E794A52D4E4F6B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				58621E040EBDC1A88D67F1A1 /* Kenmore_Models.framework in Embed Frameworks */,
+				38E412758147E7EA80F3FFC1 /* Kenmore_Utilities.framework in Embed Frameworks */,
+				94E1E5B9081738A0CFDE56F9 /* Kenmore_DataStores.framework in Embed Frameworks */,
+				A64F7C32D679482BEAB2004F /* Kenmore_Operations.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		014A7F0A7CDE7427EEFF0EFC /* AppCleaner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppCleaner.swift; sourceTree = "<group>"; };
+		09011BF0222879F7E2406A86 /* LoginOperationStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginOperationStrategy.swift; sourceTree = "<group>"; };
+		0957125914AFD98D9800F39A /* ContentVideoResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentVideoResponse.swift; sourceTree = "<group>"; };
+		0A04EB1450536757E2CA694E /* QualityLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QualityLevel.swift; sourceTree = "<group>"; };
+		0DA21268138B0BF7E889119A /* OperationStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OperationStrategy.swift; sourceTree = "<group>"; };
+		11724AD351114B7577F102C7 /* CreatorRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreatorRequest.swift; sourceTree = "<group>"; };
+		14DE3C3FFA98D5196171788F /* SortOrder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SortOrder.swift; sourceTree = "<group>"; };
+		18F9C41046DE94D094DCF7A1 /* SearchOperationStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchOperationStrategy.swift; sourceTree = "<group>"; };
+		1A225C8F116087B8689C99E3 /* SubscriptionResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SubscriptionResponse.swift; sourceTree = "<group>"; };
+		1D30BEA9E67A2FD6B52A4C39 /* OperationRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OperationRequest.swift; sourceTree = "<group>"; };
+		1DD0BAF775977311F2501A43 /* VodDeliveryKeyOperationStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VodDeliveryKeyOperationStrategy.swift; sourceTree = "<group>"; };
+		1E352D123BC9D70EC1C6BAB3 /* Category.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		1F21AB67E3973237D9515A56 /* Channel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		205CD2E9A5B5B4D09994F89F /* SessionFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SessionFactory.swift; sourceTree = "<group>"; };
+		2365B68034F04EAAA13D0024 /* OperationResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OperationResponse.swift; sourceTree = "<group>"; };
+		23BF5A2E2CD9969275AA98CE /* Operation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		264E49DB6088E5DF1227A9DC /* ContentFeedRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentFeedRequest.swift; sourceTree = "<group>"; };
+		2CC8CFDF7E0D67758B93D6E0 /* VideoMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoMetadata.swift; sourceTree = "<group>"; };
+		33C863B01C94A375AC74AC20 /* LogoutOperationStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogoutOperationStrategy.swift; sourceTree = "<group>"; };
+		3488AF661F879F040A49A09D /* Log4S.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Log4S.swift; sourceTree = "<group>"; };
+		36E12566E576329D024DD4E6 /* Owner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		3CF8F1DFC0474DE6F42108D7 /* SubscriptionRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SubscriptionRequest.swift; sourceTree = "<group>"; };
+		42FE0D1081036B93195B4486 /* String+Class.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Class.swift"; sourceTree = "<group>"; };
+		43D59AB1D734C8F85BA5285C /* Creator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Creator.swift; sourceTree = "<group>"; };
+		44CC14BD71B4439ED7EA31D8 /* VodDeliveryKeyRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VodDeliveryKeyRequest.swift; sourceTree = "<group>"; };
+		45F91557D59FC189689E1299 /* VideoMetadataOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoMetadataOperation.swift; sourceTree = "<group>"; };
+		493BE8E1F65B388F843FAE60 /* LoginFailedResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginFailedResponse.swift; sourceTree = "<group>"; };
+		4A0AD382A89263AFED98E1CB /* KeychainAccess.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeychainAccess.swift; sourceTree = "<group>"; };
+		4BE863BE5D853FF687D16470 /* User.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4D1417E4981294F7356C7D42 /* PlaybackSpeed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlaybackSpeed.swift; sourceTree = "<group>"; };
+		5000CE19869E26C49B5541E2 /* DiskStorageWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DiskStorageWrapper.swift; sourceTree = "<group>"; };
+		50CDEBE2165F1CBDE54337DA /* OperationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OperationManager.swift; sourceTree = "<group>"; };
+		516C6545BB4BA136B8C1AD27 /* ContentVideoOperationStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentVideoOperationStrategy.swift; sourceTree = "<group>"; };
+		51E4DF5AE76DDADF6CF3FAAB /* ImageCacheConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageCacheConfig.swift; sourceTree = "<group>"; };
+		524EBC93E50D00F4E73B1746 /* SearchResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		586FDE245FA60C0B512C8E24 /* FloatplaneDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatplaneDecoder.swift; sourceTree = "<group>"; };
+		5959658C728B4B3733E8BC78 /* QualityLevelResourceData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QualityLevelResourceData.swift; sourceTree = "<group>"; };
 		5E0E516929D3F6B3006744E4 /* FeedItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedItemCollectionViewCell.xib; sourceTree = "<group>"; };
 		5E1FD6F229DA35C60015AE6F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		5E1FD6F429DA62B10015AE6F /* SearchContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchContainerViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +383,54 @@
 		5EC057C529D68E8B00D775EB /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 		5EEF783429EB6090008AF7FB /* BrowseCollectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseCollectionManager.swift; sourceTree = "<group>"; };
 		5EFD929629D90D15007E8374 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		5F29883A9DF8D05F59ADC638 /* GetFirstPageOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GetFirstPageOperation.swift; sourceTree = "<group>"; };
+		6678ED66CEBA439DB09BE99D /* CreatorOperationStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreatorOperationStrategy.swift; sourceTree = "<group>"; };
+		66C5F90219E5D2F06F76BA6E /* CreatorListResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreatorListResponse.swift; sourceTree = "<group>"; };
+		68B3203ED2BAFBE8162FB2C9 /* Kenmore_Operations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kenmore_Operations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		699FF990AC85067E7F0ABFA7 /* Kenmore_Models.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kenmore_Models.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A549DC96CDD843BA662B003 /* CreatorFeed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreatorFeed.swift; sourceTree = "<group>"; };
+		7544ED5822544635C3ACA946 /* SubscriptionOperationStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SubscriptionOperationStrategy.swift; sourceTree = "<group>"; };
+		764948E7C361EA61690B7E31 /* SearchRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
+		7653F4ED661E075A01F91504 /* UserNotificationSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserNotificationSetting.swift; sourceTree = "<group>"; };
+		7704EDAC75016915712F884C /* CreatorListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreatorListRequest.swift; sourceTree = "<group>"; };
+		793EB0EC67E8F01624EC4A7C /* LoginResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		7B7D3BF6C33D508E898108EC /* String+HTML.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+HTML.swift"; sourceTree = "<group>"; };
+		7C9BC8E1E6652C08BF46C65A /* ContentFeedOperationStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentFeedOperationStrategy.swift; sourceTree = "<group>"; };
+		7E22991346681B2947C3936F /* LiveDeliveryKeyRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LiveDeliveryKeyRequest.swift; sourceTree = "<group>"; };
+		7F26811D23B8E8230C0CCEE9 /* GetFirstPageRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GetFirstPageRequest.swift; sourceTree = "<group>"; };
+		8452C9E2BC6E642D8778F027 /* AppSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		848015B43425F721D28F264F /* ProgressStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProgressStore.swift; sourceTree = "<group>"; };
+		8AF0C30AFF826D27901DB7A6 /* GetFirstPageResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GetFirstPageResponse.swift; sourceTree = "<group>"; };
+		8D3C98B9A90430A98D0A888B /* LogoutRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogoutRequest.swift; sourceTree = "<group>"; };
+		9AB4F511E4AE1241F759C4B6 /* BaseCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseCreator.swift; sourceTree = "<group>"; };
+		9C74A61FD02BA0B9EAB6E3C2 /* StrategyBasedOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StrategyBasedOperation.swift; sourceTree = "<group>"; };
+		9F9D45A326224C2812E3BFF6 /* Kenmore_DataStores.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kenmore_DataStores.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B6C6DF14C0232079C13215 /* VideoType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoType.swift; sourceTree = "<group>"; };
+		A90A7417CB90D479E2F93424 /* LiveDeliveryKeyOperationStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LiveDeliveryKeyOperationStrategy.swift; sourceTree = "<group>"; };
+		B367C41887222DADDB306136 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B50B18EB6B23F76D313CF463 /* FeedItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		B5AFED9497AF336A7D6D8BD4 /* ResourceData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResourceData.swift; sourceTree = "<group>"; };
+		BD2052F3BD89A2F04C8305D1 /* DeliveryKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeliveryKey.swift; sourceTree = "<group>"; };
+		C2CDC25258834371BA783D87 /* Metadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Metadata.swift; sourceTree = "<group>"; };
+		C38FE7C8656CE5E443967081 /* CacheableStrategyBasedOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CacheableStrategyBasedOperation.swift; sourceTree = "<group>"; };
+		C50888AF04A4421C782C3C2E /* FloatplaneEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatplaneEncoder.swift; sourceTree = "<group>"; };
+		C7A60C3C5C12F3F6ED5BF524 /* PostType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostType.swift; sourceTree = "<group>"; };
+		CCBF7824A1D04F1B6E0871EE /* CreatorListOperationStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreatorListOperationStrategy.swift; sourceTree = "<group>"; };
+		CCC5910271E5BCDDA8530BBA /* ContentCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentCreator.swift; sourceTree = "<group>"; };
+		D0B2EA653B7D0EEF6D2BB3D0 /* Kenmore_Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kenmore_Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D355E7665D4CC30DEF135C14 /* ImageGrabber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageGrabber.swift; sourceTree = "<group>"; };
+		D5AD5BA6F0E2D73685F02D6D /* Icon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		D5CA5AA2F787F1B515E2BCDE /* UserStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		DA5183514B075954007E1BF4 /* ContentVideoRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentVideoRequest.swift; sourceTree = "<group>"; };
+		DCD79EF13285D61730F6F718 /* LogoutResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogoutResponse.swift; sourceTree = "<group>"; };
+		E46A730ADE56BE12DEF490FC /* Bool+StringTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bool+StringTest.swift"; sourceTree = "<group>"; };
+		E680F070C80F524CBFE4E8EA /* LiveStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LiveStream.swift; sourceTree = "<group>"; };
+		E80248BA8895DEB13321B3BD /* QualityLevelParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QualityLevelParams.swift; sourceTree = "<group>"; };
+		E9ACD80E0CBFDEB3EE695911 /* VideoMetadataRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoMetadataRequest.swift; sourceTree = "<group>"; };
+		EE58583E5499416226B339C4 /* StreamURLFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StreamURLFactory.swift; sourceTree = "<group>"; };
+		F98361CDBC4184EB571854D0 /* OperationConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OperationConstants.swift; sourceTree = "<group>"; };
+		FE175C459AA50F2B385FE3B5 /* LoginRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		FF1D4F4F78F90220ACBE8EE1 /* DeliveryKeyQualityLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeliveryKeyQualityLevel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,14 +440,13 @@
 			files = (
 				5E5155EF29EE7FB4009B68EA /* Alamofire in Frameworks */,
 				5E5155EB29EE7FB4009B68EA /* ParallaxView in Frameworks */,
-				5EE031552CBDDEFB0028A0A8 /* Kenmore-DataStores in Frameworks */,
-				5E5155E129EE7FB4009B68EA /* AsyncObjects in Frameworks */,
-				5EE031472CBDD8B00028A0A8 /* Kenmore-Utilities in Frameworks */,
-				5EE031452CBDD8A20028A0A8 /* Kenmore-Models in Frameworks */,
-				5EE0314B2CBDD8B00028A0A8 /* Kenmore-Operations in Frameworks */,
 				5E5155ED29EE7FB4009B68EA /* SwiftDate in Frameworks */,
 				5E5155F129EE7FB4009B68EA /* AlamofireImage in Frameworks */,
 				5EFD929729D90D15007E8374 /* AVKit.framework in Frameworks */,
+				E17E4F2EC0B5E444800E40A6 /* Kenmore_Models.framework in Frameworks */,
+				91CCBCC9003536BA8B31A936 /* Kenmore_Utilities.framework in Frameworks */,
+				37E8B5560BEA7ECD81E786AC /* Kenmore_DataStores.framework in Frameworks */,
+				0EF183DD94EDCB3F6B5AC293 /* Kenmore_Operations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,18 +464,238 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		600322A9705259399FBDD6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1188A12F7E2F90000B6CF1 /* Cache in Frameworks */,
+				5E1188A02F7E2F90000B6CF1 /* UICKeyChainStore in Frameworks */,
+				4BB18542C0216EC21756C274 /* Foundation.framework in Frameworks */,
+				5FDF8C96D49B961BCAF28F5D /* Kenmore_Models.framework in Frameworks */,
+				91F731D2E5C08C4F996F05EC /* Kenmore_Utilities.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D670E8E4F38278F8197A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E11889F2F7E2F90000B6CF1 /* Logging in Frameworks */,
+				1D09A66F1859D122C0CBDD26 /* Foundation.framework in Frameworks */,
+				F08B66FB92CD72A5F6E29C79 /* Kenmore_Models.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0A6C7837EB97E8ED28678D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7538A6464F869FF1171C2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A918B2E0DACC8A0A683E4381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1188A42F7E2F90000B6CF1 /* Cache in Frameworks */,
+				5E1188A32F7E2F90000B6CF1 /* AlamofireImage in Frameworks */,
+				5E1188A22F7E2F90000B6CF1 /* Alamofire in Frameworks */,
+				286B952BFE3D77686E486601 /* Foundation.framework in Frameworks */,
+				76EB2B0B35DF1A01CE5DE22E /* Kenmore_Models.framework in Frameworks */,
+				9E221F66BA8191A1B43E16D6 /* Kenmore_Utilities.framework in Frameworks */,
+				366395FFC8821A0A84DCC241 /* Kenmore_DataStores.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08B9483702BD2933F99A558C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				493BE8E1F65B388F843FAE60 /* LoginFailedResponse.swift */,
+				FE175C459AA50F2B385FE3B5 /* LoginRequest.swift */,
+				793EB0EC67E8F01624EC4A7C /* LoginResponse.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		097833152C6B11FF5D65CA28 /* Delivery Key */ = {
+			isa = PBXGroup;
+			children = (
+				BD2052F3BD89A2F04C8305D1 /* DeliveryKey.swift */,
+				7E22991346681B2947C3936F /* LiveDeliveryKeyRequest.swift */,
+				E80248BA8895DEB13321B3BD /* QualityLevelParams.swift */,
+				5959658C728B4B3733E8BC78 /* QualityLevelResourceData.swift */,
+				B5AFED9497AF336A7D6D8BD4 /* ResourceData.swift */,
+				44CC14BD71B4439ED7EA31D8 /* VodDeliveryKeyRequest.swift */,
+			);
+			path = "Delivery Key";
+			sourceTree = "<group>";
+		};
+		1C797D025EFA5E67CDCC292F /* Creator */ = {
+			isa = PBXGroup;
+			children = (
+				9AB4F511E4AE1241F759C4B6 /* BaseCreator.swift */,
+				CCC5910271E5BCDDA8530BBA /* ContentCreator.swift */,
+				43D59AB1D734C8F85BA5285C /* Creator.swift */,
+				11724AD351114B7577F102C7 /* CreatorRequest.swift */,
+			);
+			path = Creator;
+			sourceTree = "<group>";
+		};
+		223C3A523A09F74000BD752C /* Kenmore-Models */ = {
+			isa = PBXGroup;
+			children = (
+				28B8DD860F40463F972C9942 /* Extensions */,
+				FE671FF6BB45C0D2AEFEA14E /* Kenmore_Models.docc */,
+				37C6221FC66CA6E0FB30015C /* Operations */,
+				ADE15AE9F57CBA277D5BB80D /* Playback Speed */,
+				E5B898D604877C43D88721C8 /* Stream */,
+			);
+			path = "Kenmore-Models";
+			sourceTree = "<group>";
+		};
+		244E25FAAF015E2703C6AEE8 /* Get First Page */ = {
+			isa = PBXGroup;
+			children = (
+				7F26811D23B8E8230C0CCEE9 /* GetFirstPageRequest.swift */,
+				8AF0C30AFF826D27901DB7A6 /* GetFirstPageResponse.swift */,
+			);
+			path = "Get First Page";
+			sourceTree = "<group>";
+		};
+		2699B946D7EC4A35692DD496 /* FloatplaneApp_DataStores.docc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FloatplaneApp_DataStores.docc;
+			sourceTree = "<group>";
+		};
+		2782E4D283EF72C4402933D4 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				764948E7C361EA61690B7E31 /* SearchRequest.swift */,
+				524EBC93E50D00F4E73B1746 /* SearchResponse.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		28B8DD860F40463F972C9942 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E46A730ADE56BE12DEF490FC /* Bool+StringTest.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		28C46F3B310076CFB92D5DD0 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B367C41887222DADDB306136 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		2FFBFE6FB300B6A3135CA82D /* Kenmore-Operations */ = {
+			isa = PBXGroup;
+			children = (
+				014A7F0A7CDE7427EEFF0EFC /* AppCleaner.swift */,
+				C38FE7C8656CE5E443967081 /* CacheableStrategyBasedOperation.swift */,
+				F76009CDA34078042A38589C /* Coding */,
+				A63281CA75D2AB8047EFCEAE /* Images */,
+				380518D26214E760ED1EC186 /* Kenmore_Operations.docc */,
+				23BF5A2E2CD9969275AA98CE /* Operation.swift */,
+				F98361CDBC4184EB571854D0 /* OperationConstants.swift */,
+				50CDEBE2165F1CBDE54337DA /* OperationManager.swift */,
+				0DA21268138B0BF7E889119A /* OperationStrategy.swift */,
+				D1E238960CA8EB4E8782A19F /* Strategies */,
+				9C74A61FD02BA0B9EAB6E3C2 /* StrategyBasedOperation.swift */,
+			);
+			path = "Kenmore-Operations";
+			sourceTree = "<group>";
+		};
+		37C6221FC66CA6E0FB30015C /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				50E3B220591A241FDB27B7FE /* Common */,
+				81FEB316E42B310926A45774 /* Content Feed */,
+				1C797D025EFA5E67CDCC292F /* Creator */,
+				C4DBACA343CB4591A8621095 /* CreatorList */,
+				097833152C6B11FF5D65CA28 /* Delivery Key */,
+				244E25FAAF015E2703C6AEE8 /* Get First Page */,
+				08B9483702BD2933F99A558C /* Login */,
+				603AE9DEC18F68CFC8E7115B /* Logout */,
+				2365B68034F04EAAA13D0024 /* OperationResponse.swift */,
+				2782E4D283EF72C4402933D4 /* Search */,
+				8FDF3CB690949C6AE081BB5C /* Subscriptions */,
+				B31D33C7317C95253A0EE4CC /* Video Metadata */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		380518D26214E760ED1EC186 /* Kenmore_Operations.docc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Kenmore_Operations.docc;
+			sourceTree = "<group>";
+		};
+		3BFEBE29F98D98349569D7FC /* Kenmore-DataStores */ = {
+			isa = PBXGroup;
+			children = (
+				8452C9E2BC6E642D8778F027 /* AppSettings.swift */,
+				5000CE19869E26C49B5541E2 /* DiskStorageWrapper.swift */,
+				2699B946D7EC4A35692DD496 /* FloatplaneApp_DataStores.docc */,
+				4A0AD382A89263AFED98E1CB /* KeychainAccess.swift */,
+				848015B43425F721D28F264F /* ProgressStore.swift */,
+				D5CA5AA2F787F1B515E2BCDE /* UserStore.swift */,
+			);
+			path = "Kenmore-DataStores";
+			sourceTree = "<group>";
+		};
+		444BEB096816DA21220E3B87 /* Non-Cacheable */ = {
+			isa = PBXGroup;
+			children = (
+				A90A7417CB90D479E2F93424 /* LiveDeliveryKeyOperationStrategy.swift */,
+				09011BF0222879F7E2406A86 /* LoginOperationStrategy.swift */,
+				33C863B01C94A375AC74AC20 /* LogoutOperationStrategy.swift */,
+				1DD0BAF775977311F2501A43 /* VodDeliveryKeyOperationStrategy.swift */,
+			);
+			path = "Non-Cacheable";
+			sourceTree = "<group>";
+		};
+		50E3B220591A241FDB27B7FE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1E352D123BC9D70EC1C6BAB3 /* Category.swift */,
+				1F21AB67E3973237D9515A56 /* Channel.swift */,
+				D5AD5BA6F0E2D73685F02D6D /* Icon.swift */,
+				E680F070C80F524CBFE4E8EA /* LiveStream.swift */,
+				C2CDC25258834371BA783D87 /* Metadata.swift */,
+				1D30BEA9E67A2FD6B52A4C39 /* OperationRequest.swift */,
+				36E12566E576329D024DD4E6 /* Owner.swift */,
+				C7A60C3C5C12F3F6ED5BF524 /* PostType.swift */,
+				14DE3C3FFA98D5196171788F /* SortOrder.swift */,
+				4BE863BE5D853FF687D16470 /* User.swift */,
+				A0B6C6DF14C0232079C13215 /* VideoType.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		5E0C3CC929CF766700C71A19 = {
 			isa = PBXGroup;
 			children = (
 				5E5155D129EE7DAB009B68EA /* scripts */,
 				5E507BF729CFAD65006751F3 /* Kenmore-tvOS */,
-				5E507C0F29CFAD66006751F3 /* Kenmore-tvOSTests */,
 				5E507C1929CFAD66006751F3 /* Kenmore-tvOSUITests */,
 				5E0C3CD329CF766700C71A19 /* Products */,
 				5E507C2C29CFB0FE006751F3 /* Frameworks */,
+				223C3A523A09F74000BD752C /* Kenmore-Models */,
+				8A5E0A2AA4A9A0820D5ECE25 /* Kenmore-Utilities */,
+				3BFEBE29F98D98349569D7FC /* Kenmore-DataStores */,
+				2FFBFE6FB300B6A3135CA82D /* Kenmore-Operations */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,6 +705,10 @@
 				5E507BF629CFAD65006751F3 /* Kenmore-tvOS.app */,
 				5E507C0C29CFAD66006751F3 /* Kenmore-tvOSTests.xctest */,
 				5E507C1629CFAD66006751F3 /* Kenmore-tvOSUITests.xctest */,
+				699FF990AC85067E7F0ABFA7 /* Kenmore_Models.framework */,
+				D0B2EA653B7D0EEF6D2BB3D0 /* Kenmore_Utilities.framework */,
+				9F9D45A326224C2812E3BFF6 /* Kenmore_DataStores.framework */,
+				68B3203ED2BAFBE8162FB2C9 /* Kenmore_Operations.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -274,13 +768,6 @@
 			path = "Kenmore-tvOS";
 			sourceTree = "<group>";
 		};
-		5E507C0F29CFAD66006751F3 /* Kenmore-tvOSTests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Kenmore-tvOSTests";
-			sourceTree = "<group>";
-		};
 		5E507C1929CFAD66006751F3 /* Kenmore-tvOSUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +813,7 @@
 				5EA5331B2C1936040040A1C2 /* Kenmore_Utilities.framework */,
 				5EFD929629D90D15007E8374 /* AVKit.framework */,
 				5E389C5429D8C23B00FC8B4B /* FloatplaneApp_Utilities.framework */,
+				28C46F3B310076CFB92D5DD0 /* tvOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -480,9 +968,239 @@
 			path = Browse;
 			sourceTree = "<group>";
 		};
+		603AE9DEC18F68CFC8E7115B /* Logout */ = {
+			isa = PBXGroup;
+			children = (
+				8D3C98B9A90430A98D0A888B /* LogoutRequest.swift */,
+				DCD79EF13285D61730F6F718 /* LogoutResponse.swift */,
+			);
+			path = Logout;
+			sourceTree = "<group>";
+		};
+		71B285D612FFA1F2D150E761 /* Kenmore-Utilities.docc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Kenmore-Utilities.docc";
+			sourceTree = "<group>";
+		};
+		81FEB316E42B310926A45774 /* Content Feed */ = {
+			isa = PBXGroup;
+			children = (
+				264E49DB6088E5DF1227A9DC /* ContentFeedRequest.swift */,
+				6A549DC96CDD843BA662B003 /* CreatorFeed.swift */,
+				B50B18EB6B23F76D313CF463 /* FeedItem.swift */,
+			);
+			path = "Content Feed";
+			sourceTree = "<group>";
+		};
+		8931BAB6BB0902C21066EB0E /* Cacheable */ = {
+			isa = PBXGroup;
+			children = (
+				7C9BC8E1E6652C08BF46C65A /* ContentFeedOperationStrategy.swift */,
+				516C6545BB4BA136B8C1AD27 /* ContentVideoOperationStrategy.swift */,
+				CCBF7824A1D04F1B6E0871EE /* CreatorListOperationStrategy.swift */,
+				6678ED66CEBA439DB09BE99D /* CreatorOperationStrategy.swift */,
+				18F9C41046DE94D094DCF7A1 /* SearchOperationStrategy.swift */,
+				7544ED5822544635C3ACA946 /* SubscriptionOperationStrategy.swift */,
+			);
+			path = Cacheable;
+			sourceTree = "<group>";
+		};
+		8A5E0A2AA4A9A0820D5ECE25 /* Kenmore-Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				71B285D612FFA1F2D150E761 /* Kenmore-Utilities.docc */,
+				3488AF661F879F040A49A09D /* Log4S.swift */,
+				EE58583E5499416226B339C4 /* StreamURLFactory.swift */,
+				42FE0D1081036B93195B4486 /* String+Class.swift */,
+				7B7D3BF6C33D508E898108EC /* String+HTML.swift */,
+			);
+			path = "Kenmore-Utilities";
+			sourceTree = "<group>";
+		};
+		8FDF3CB690949C6AE081BB5C /* Subscriptions */ = {
+			isa = PBXGroup;
+			children = (
+				3CF8F1DFC0474DE6F42108D7 /* SubscriptionRequest.swift */,
+				1A225C8F116087B8689C99E3 /* SubscriptionResponse.swift */,
+			);
+			path = Subscriptions;
+			sourceTree = "<group>";
+		};
+		A63281CA75D2AB8047EFCEAE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				51E4DF5AE76DDADF6CF3FAAB /* ImageCacheConfig.swift */,
+				D355E7665D4CC30DEF135C14 /* ImageGrabber.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AC1E2FD7C667F9D6C2DD4362 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				205CD2E9A5B5B4D09994F89F /* SessionFactory.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		ADE15AE9F57CBA277D5BB80D /* Playback Speed */ = {
+			isa = PBXGroup;
+			children = (
+				4D1417E4981294F7356C7D42 /* PlaybackSpeed.swift */,
+			);
+			path = "Playback Speed";
+			sourceTree = "<group>";
+		};
+		B2E966356425BBBA7D7C1902 /* Compound */ = {
+			isa = PBXGroup;
+			children = (
+				5F29883A9DF8D05F59ADC638 /* GetFirstPageOperation.swift */,
+				45F91557D59FC189689E1299 /* VideoMetadataOperation.swift */,
+			);
+			path = Compound;
+			sourceTree = "<group>";
+		};
+		B31D33C7317C95253A0EE4CC /* Video Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				DA5183514B075954007E1BF4 /* ContentVideoRequest.swift */,
+				0957125914AFD98D9800F39A /* ContentVideoResponse.swift */,
+				0A04EB1450536757E2CA694E /* QualityLevel.swift */,
+				2CC8CFDF7E0D67758B93D6E0 /* VideoMetadata.swift */,
+				E9ACD80E0CBFDEB3EE695911 /* VideoMetadataRequest.swift */,
+			);
+			path = "Video Metadata";
+			sourceTree = "<group>";
+		};
+		C4DBACA343CB4591A8621095 /* CreatorList */ = {
+			isa = PBXGroup;
+			children = (
+				7704EDAC75016915712F884C /* CreatorListRequest.swift */,
+				66C5F90219E5D2F06F76BA6E /* CreatorListResponse.swift */,
+				7653F4ED661E075A01F91504 /* UserNotificationSetting.swift */,
+			);
+			path = CreatorList;
+			sourceTree = "<group>";
+		};
+		D1E238960CA8EB4E8782A19F /* Strategies */ = {
+			isa = PBXGroup;
+			children = (
+				AC1E2FD7C667F9D6C2DD4362 /* Alamofire */,
+				8931BAB6BB0902C21066EB0E /* Cacheable */,
+				B2E966356425BBBA7D7C1902 /* Compound */,
+				444BEB096816DA21220E3B87 /* Non-Cacheable */,
+			);
+			path = Strategies;
+			sourceTree = "<group>";
+		};
+		E5B898D604877C43D88721C8 /* Stream */ = {
+			isa = PBXGroup;
+			children = (
+				FF1D4F4F78F90220ACBE8EE1 /* DeliveryKeyQualityLevel.swift */,
+			);
+			path = Stream;
+			sourceTree = "<group>";
+		};
+		F76009CDA34078042A38589C /* Coding */ = {
+			isa = PBXGroup;
+			children = (
+				586FDE245FA60C0B512C8E24 /* FloatplaneDecoder.swift */,
+				C50888AF04A4421C782C3C2E /* FloatplaneEncoder.swift */,
+			);
+			path = Coding;
+			sourceTree = "<group>";
+		};
+		FE671FF6BB45C0D2AEFEA14E /* Kenmore_Models.docc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Kenmore_Models.docc;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		11E22F7BE1EF02EC4E5B42C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AC4F043B1654C42A6C55F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1AE727EAD9C19F696E9994 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13D6608519DD865E2660E6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		18FAF5BC152BC53EF6E96F4A /* Kenmore-Operations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C2A109DBB872FF9F0CF8C5 /* Build configuration list for PBXNativeTarget "Kenmore-Operations" */;
+			buildPhases = (
+				59AC4F043B1654C42A6C55F1 /* Headers */,
+				6BCAF5C072AEAED291535547 /* Sources */,
+				A918B2E0DACC8A0A683E4381 /* Frameworks */,
+				D7B814119BA3EC762023614D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C3EF6DC0CCFCBF77194200 /* PBXTargetDependency */,
+				D8A8EBB5F3DD9B993199D764 /* PBXTargetDependency */,
+				33D465641905B784B9C5A9E1 /* PBXTargetDependency */,
+			);
+			name = "Kenmore-Operations";
+			packageProductDependencies = (
+				B8039BA78A41045C49680DA1 /* Alamofire */,
+				851FA59DE44932DE7AA4A160 /* AlamofireImage */,
+				3C20EDC70DCF18701CF209DC /* Cache */,
+			);
+			productName = "Kenmore-Operations";
+			productReference = 68B3203ED2BAFBE8162FB2C9 /* Kenmore_Operations.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		320616D8F0DEA583491FF6E3 /* Kenmore-Utilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EFDE2484879B8225091EB4D /* Build configuration list for PBXNativeTarget "Kenmore-Utilities" */;
+			buildPhases = (
+				EA1AE727EAD9C19F696E9994 /* Headers */,
+				578FE1EF656BD4DC7235F6D6 /* Sources */,
+				67D670E8E4F38278F8197A42 /* Frameworks */,
+				7A0A076A6C2D1C7C700AFFC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC704DE939A628CFEE4EA0F8 /* PBXTargetDependency */,
+			);
+			name = "Kenmore-Utilities";
+			packageProductDependencies = (
+				D97D5AA04879C0B58F41FE77 /* Logging */,
+			);
+			productName = "Kenmore-Utilities";
+			productReference = D0B2EA653B7D0EEF6D2BB3D0 /* Kenmore_Utilities.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		5E507BF529CFAD65006751F3 /* Kenmore-tvOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E507C1E29CFAD66006751F3 /* Build configuration list for PBXNativeTarget "Kenmore-tvOS" */;
@@ -490,22 +1208,22 @@
 				5E507BF229CFAD65006751F3 /* Sources */,
 				5E507BF329CFAD65006751F3 /* Frameworks */,
 				5E507BF429CFAD65006751F3 /* Resources */,
+				BC0F73FA28E794A52D4E4F6B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2044B60657707855089E10E1 /* PBXTargetDependency */,
+				F1F540C4E6C1BC46F60A0983 /* PBXTargetDependency */,
+				1F6EF3AF909F241D05344067 /* PBXTargetDependency */,
+				EAF2B43A614F15B31A4548CC /* PBXTargetDependency */,
 			);
 			name = "Kenmore-tvOS";
 			packageProductDependencies = (
-				5E5155E029EE7FB4009B68EA /* AsyncObjects */,
 				5E5155EA29EE7FB4009B68EA /* ParallaxView */,
 				5E5155EC29EE7FB4009B68EA /* SwiftDate */,
 				5E5155EE29EE7FB4009B68EA /* Alamofire */,
 				5E5155F029EE7FB4009B68EA /* AlamofireImage */,
-				5EE031442CBDD8A20028A0A8 /* Kenmore-Models */,
-				5EE031462CBDD8B00028A0A8 /* Kenmore-Utilities */,
-				5EE0314A2CBDD8B00028A0A8 /* Kenmore-Operations */,
-				5EE031542CBDDEFB0028A0A8 /* Kenmore-DataStores */,
 			);
 			productName = FloatplaneApp;
 			productReference = 5E507BF629CFAD65006751F3 /* Kenmore-tvOS.app */;
@@ -525,8 +1243,6 @@
 				5E507C0E29CFAD66006751F3 /* PBXTargetDependency */,
 			);
 			name = "Kenmore-tvOSTests";
-			packageProductDependencies = (
-			);
 			productName = FloatplaneAppTests;
 			productReference = 5E507C0C29CFAD66006751F3 /* Kenmore-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -549,6 +1265,48 @@
 			productReference = 5E507C1629CFAD66006751F3 /* Kenmore-tvOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		809C2942BA1BA39955E4D1A0 /* Kenmore-Models */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7E9FBF15927D825DD8F0BD0 /* Build configuration list for PBXNativeTarget "Kenmore-Models" */;
+			buildPhases = (
+				F13D6608519DD865E2660E6B /* Headers */,
+				3E0CE1D132638A1325F079D9 /* Sources */,
+				6E0A6C7837EB97E8ED28678D /* Frameworks */,
+				EA0F02C10596FA336AA27637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kenmore-Models";
+			productName = "Kenmore-Models";
+			productReference = 699FF990AC85067E7F0ABFA7 /* Kenmore_Models.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C79FB3DA2DE819E13641DF26 /* Kenmore-DataStores */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C152A3C42F7EF161CECADEC /* Build configuration list for PBXNativeTarget "Kenmore-DataStores" */;
+			buildPhases = (
+				11E22F7BE1EF02EC4E5B42C8 /* Headers */,
+				BB787F0B6AB5189677B06A9F /* Sources */,
+				600322A9705259399FBDD6A4 /* Frameworks */,
+				C79A70C146A7790F5F39DA3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B6373523CB6625C697BBA16 /* PBXTargetDependency */,
+				287E815C309287EAD56A7909 /* PBXTargetDependency */,
+			);
+			name = "Kenmore-DataStores";
+			packageProductDependencies = (
+				3C8390A8FDA4ED902A92BA1D /* UICKeyChainStore */,
+				FF0DC6E1FBA067191C5653FB /* Cache */,
+			);
+			productName = "Kenmore-DataStores";
+			productReference = 9F9D45A326224C2812E3BFF6 /* Kenmore_DataStores.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -557,7 +1315,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1610;
+				LastUpgradeCheck = 2640;
 				TargetAttributes = {
 					5E507BF529CFAD65006751F3 = {
 						CreatedOnToolsVersion = 14.2;
@@ -582,15 +1340,13 @@
 			);
 			mainGroup = 5E0C3CC929CF766700C71A19;
 			packageReferences = (
-				5E5155D729EE7E58009B68EA /* XCRemoteSwiftPackageReference "AsyncObjects" */,
 				5E5155DC29EE7EB1009B68EA /* XCRemoteSwiftPackageReference "ParallaxView" */,
 				5E5155DD29EE7EC5009B68EA /* XCRemoteSwiftPackageReference "SwiftDate" */,
 				5E5155DE29EE7ED3009B68EA /* XCRemoteSwiftPackageReference "Alamofire" */,
 				5E5155DF29EE7EE0009B68EA /* XCRemoteSwiftPackageReference "AlamofireImage" */,
-				5EBA28302A15E10E00F673BC /* XCRemoteSwiftPackageReference "Kenmore-Models" */,
-				5EBA28332A15E11900F673BC /* XCRemoteSwiftPackageReference "Kenmore-Utilities" */,
-				5EBA28392A15E14000F673BC /* XCRemoteSwiftPackageReference "Kenmore-Operations" */,
-				5EE031532CBDDEFB0028A0A8 /* XCRemoteSwiftPackageReference "Kenmore-DataStores" */,
+				FCEC16AC9741FC16E1552BF4 /* XCRemoteSwiftPackageReference "swift-log" */,
+				05680D039B3997DCF76B36A6 /* XCRemoteSwiftPackageReference "UICKeyChainStore" */,
+				EA44CE68AC5AB39FE0E1CA18 /* XCRemoteSwiftPackageReference "Cache" */,
 			);
 			productRefGroup = 5E0C3CD329CF766700C71A19 /* Products */;
 			projectDirPath = "";
@@ -599,6 +1355,10 @@
 				5E507BF529CFAD65006751F3 /* Kenmore-tvOS */,
 				5E507C0B29CFAD66006751F3 /* Kenmore-tvOSTests */,
 				5E507C1529CFAD66006751F3 /* Kenmore-tvOSUITests */,
+				809C2942BA1BA39955E4D1A0 /* Kenmore-Models */,
+				320616D8F0DEA583491FF6E3 /* Kenmore-Utilities */,
+				C79FB3DA2DE819E13641DF26 /* Kenmore-DataStores */,
+				18FAF5BC152BC53EF6E96F4A /* Kenmore-Operations */,
 			);
 		};
 /* End PBXProject section */
@@ -641,9 +1401,102 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7A0A076A6C2D1C7C700AFFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79A70C146A7790F5F39DA3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B814119BA3EC762023614D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0F02C10596FA336AA27637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3E0CE1D132638A1325F079D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD4EB09265E09FD55B2ED66 /* Bool+StringTest.swift in Sources */,
+				A76C6BD3E03EF68D48E381B3 /* Category.swift in Sources */,
+				C75A870179D8238A1B9EF324 /* Channel.swift in Sources */,
+				0120D30C902ED17C6D4DECE4 /* Icon.swift in Sources */,
+				464B255B66681A10E249D8B1 /* LiveStream.swift in Sources */,
+				F3589967FC1122D5A6694176 /* Metadata.swift in Sources */,
+				A1489512919EA6162E112A1F /* OperationRequest.swift in Sources */,
+				6623D261F8DEF79CA4094BD0 /* Owner.swift in Sources */,
+				9A7A07CCE6DDDDC0928277DC /* PostType.swift in Sources */,
+				4C99189B02FD60B2998729A8 /* SortOrder.swift in Sources */,
+				F43A97E2683FCC22239447F2 /* User.swift in Sources */,
+				F85F9CDD918A73C504E20E30 /* VideoType.swift in Sources */,
+				FF17AF9E7E43CBB201A1F377 /* ContentFeedRequest.swift in Sources */,
+				2C95BAA88A9784FC11AF4C01 /* CreatorFeed.swift in Sources */,
+				28F039629E2A6B81BDE06C48 /* FeedItem.swift in Sources */,
+				BE7F56CEFBFEBD3EA1184973 /* BaseCreator.swift in Sources */,
+				82512AD45965FF280694606D /* ContentCreator.swift in Sources */,
+				94C54CC5AF624AECAA47016F /* Creator.swift in Sources */,
+				2F4A4ACEA9B23AB400DB61E0 /* CreatorRequest.swift in Sources */,
+				F0B8BC3C301306DA64B2142A /* CreatorListRequest.swift in Sources */,
+				122005696E27D8DA457B26CF /* CreatorListResponse.swift in Sources */,
+				E5D78E4E461D0DB59683EA15 /* UserNotificationSetting.swift in Sources */,
+				5C982086C989F4048309F438 /* DeliveryKey.swift in Sources */,
+				7D33869F268BD51ECD4C1E3A /* LiveDeliveryKeyRequest.swift in Sources */,
+				89B3901F670445A15877B1DA /* QualityLevelParams.swift in Sources */,
+				495299EC171D6E65B70EE1B9 /* QualityLevelResourceData.swift in Sources */,
+				4581352EEA503119D6205130 /* ResourceData.swift in Sources */,
+				9D842BA5228C9607C866B1A6 /* VodDeliveryKeyRequest.swift in Sources */,
+				B4AD416348B86A37158DE856 /* GetFirstPageRequest.swift in Sources */,
+				BE79F62FA72424632AE47BFC /* GetFirstPageResponse.swift in Sources */,
+				E56636B1942EC67433F1BA36 /* LoginFailedResponse.swift in Sources */,
+				8CEE19471B28CEB7AB29433C /* LoginRequest.swift in Sources */,
+				3C4B2466ED6EE8EC7D67CB6E /* LoginResponse.swift in Sources */,
+				4174D4FB318364F911AC29A6 /* LogoutRequest.swift in Sources */,
+				61E7E509A9822E6B7EDDF84A /* LogoutResponse.swift in Sources */,
+				5673DDE5CCC3A3F2E29D3D4D /* OperationResponse.swift in Sources */,
+				AD507FF38A01A0F5669EB21E /* SearchRequest.swift in Sources */,
+				A3CE0F7836889CBB5D28E275 /* SearchResponse.swift in Sources */,
+				FAA707E2D865E5D938326DE0 /* SubscriptionRequest.swift in Sources */,
+				2ECCBF8BACBE8BF89E5BF97C /* SubscriptionResponse.swift in Sources */,
+				34FC46891610E1A462659A12 /* ContentVideoRequest.swift in Sources */,
+				393CC94B9A2E0AD2BA5C39D6 /* ContentVideoResponse.swift in Sources */,
+				281ED20C55525B28320B7FBB /* QualityLevel.swift in Sources */,
+				F71A49163F3B6C17A61D1B3F /* VideoMetadata.swift in Sources */,
+				A47A59183EF6E62323B583AA /* VideoMetadataRequest.swift in Sources */,
+				AF93817058D860A3458AD8A2 /* PlaybackSpeed.swift in Sources */,
+				17FB643DF6495D513EE4A858 /* DeliveryKeyQualityLevel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578FE1EF656BD4DC7235F6D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027C081339B1F9399DB04AAB /* Log4S.swift in Sources */,
+				B0990A2A0637437FB2237628 /* StreamURLFactory.swift in Sources */,
+				78F2B003070AD63D46328302 /* String+Class.swift in Sources */,
+				9653DC410AFA65E9387520D8 /* String+HTML.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E507BF229CFAD65006751F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -703,9 +1556,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6BCAF5C072AEAED291535547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5ADF4060B1A46BF8DF1E4B /* AppCleaner.swift in Sources */,
+				CCAA856224AE4C779F838C53 /* CacheableStrategyBasedOperation.swift in Sources */,
+				8A76123AFE15C39B32D7F239 /* FloatplaneDecoder.swift in Sources */,
+				6CAF99F21FFDE5E9FF72441A /* FloatplaneEncoder.swift in Sources */,
+				98636A8F5458A1E12F9AD34C /* ImageCacheConfig.swift in Sources */,
+				AB9F51DAB5D6F7E430E11F5C /* ImageGrabber.swift in Sources */,
+				E7BF6989736AC0E7923C2DBA /* Operation.swift in Sources */,
+				AF7307EE7B4B21D33BB3E7DD /* OperationConstants.swift in Sources */,
+				37B2A2F9F0D5A5E1AE8A2A63 /* OperationManager.swift in Sources */,
+				377D6A8821581311C2A113D9 /* OperationStrategy.swift in Sources */,
+				55B50787F0F77F1814BA3E0F /* SessionFactory.swift in Sources */,
+				91EB8F4E2FECCDBD6C626D5E /* ContentFeedOperationStrategy.swift in Sources */,
+				2131A1D7A5CA953E54AFFD5D /* ContentVideoOperationStrategy.swift in Sources */,
+				62D4CA9E69F8EC889597CBD4 /* CreatorListOperationStrategy.swift in Sources */,
+				8FDFD3C62559BCE8EC23A970 /* CreatorOperationStrategy.swift in Sources */,
+				FAD8E6C9E637E75BE3DAB48D /* SearchOperationStrategy.swift in Sources */,
+				FE0DDAB542472DBF841C2503 /* SubscriptionOperationStrategy.swift in Sources */,
+				B3D8B9BCAD3B5D2E5619B5E0 /* GetFirstPageOperation.swift in Sources */,
+				2E8979027D3ADA80486A6869 /* VideoMetadataOperation.swift in Sources */,
+				E6923E6E442700E4CC2611A9 /* LiveDeliveryKeyOperationStrategy.swift in Sources */,
+				44FACB84729190CD63749360 /* LoginOperationStrategy.swift in Sources */,
+				F7DAD7FEF4DF13F5DE2CF10C /* LogoutOperationStrategy.swift in Sources */,
+				50C00A0871644AB92C5336B8 /* VodDeliveryKeyOperationStrategy.swift in Sources */,
+				5C29D8F05501205CF7843777 /* StrategyBasedOperation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB787F0B6AB5189677B06A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF1B2C76E560729CFE11BC2 /* AppSettings.swift in Sources */,
+				E0E8B34EB8283AA179A450D8 /* DiskStorageWrapper.swift in Sources */,
+				44B9BEB390C84EB96A53E54B /* KeychainAccess.swift in Sources */,
+				13940C4A4157C8A871F08539 /* ProgressStore.swift in Sources */,
+				4141D591AD050A84FBD89BE2 /* UserStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1F6EF3AF909F241D05344067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kenmore-DataStores";
+			target = C79FB3DA2DE819E13641DF26 /* Kenmore-DataStores */;
+			targetProxy = 18D20B24C44F96B07CDB581C /* PBXContainerItemProxy */;
+		};
+		2044B60657707855089E10E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kenmore-Models";
+			target = 809C2942BA1BA39955E4D1A0 /* Kenmore-Models */;
+			targetProxy = 5A38A77776B0A023290F206E /* PBXContainerItemProxy */;
+		};
+		27C3EF6DC0CCFCBF77194200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kenmore-Models";
+			target = 809C2942BA1BA39955E4D1A0 /* Kenmore-Models */;
+			targetProxy = D386728A3AEB1049F4E387DD /* PBXContainerItemProxy */;
+		};
+		287E815C309287EAD56A7909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kenmore-Utilities";
+			target = 320616D8F0DEA583491FF6E3 /* Kenmore-Utilities */;
+			targetProxy = DBF92841561D41CDD1BBE89E /* PBXContainerItemProxy */;
+		};
+		33D465641905B784B9C5A9E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kenmore-DataStores";
+			target = C79FB3DA2DE819E13641DF26 /* Kenmore-DataStores */;
+			targetProxy = 26905DAE6986CFB77EA96BEB /* PBXContainerItemProxy */;
+		};
 		5E507C0E29CFAD66006751F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5E507BF529CFAD65006751F3 /* Kenmore-tvOS */;
@@ -715,6 +1641,36 @@
 			isa = PBXTargetDependency;
 			target = 5E507BF529CFAD65006751F3 /* Kenmore-tvOS */;
 			targetProxy = 5E507C1729CFAD66006751F3 /* PBXContainerItemProxy */;
+		};
+		8B6373523CB6625C697BBA16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kenmore-Models";
+			target = 809C2942BA1BA39955E4D1A0 /* Kenmore-Models */;
+			targetProxy = 705A669B6D2E840B753BEFE8 /* PBXContainerItemProxy */;
+		};
+		CC704DE939A628CFEE4EA0F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kenmore-Models";
+			target = 809C2942BA1BA39955E4D1A0 /* Kenmore-Models */;
+			targetProxy = 4B0924D4BE6565A761ECBC30 /* PBXContainerItemProxy */;
+		};
+		D8A8EBB5F3DD9B993199D764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kenmore-Utilities";
+			target = 320616D8F0DEA583491FF6E3 /* Kenmore-Utilities */;
+			targetProxy = 92CF85CF51CF5F421B4D7B5F /* PBXContainerItemProxy */;
+		};
+		EAF2B43A614F15B31A4548CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kenmore-Operations";
+			target = 18FAF5BC152BC53EF6E96F4A /* Kenmore-Operations */;
+			targetProxy = 8E2FB7171D75914FE1F4BFE1 /* PBXContainerItemProxy */;
+		};
+		F1F540C4E6C1BC46F60A0983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kenmore-Utilities";
+			target = 320616D8F0DEA583491FF6E3 /* Kenmore-Utilities */;
+			targetProxy = 6746195651CB6977DED2E126 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -738,6 +1694,136 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		395640EDD07D3ED80B7D7F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.georgie.FloatplaneApp-Models";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F8AFF51EEC47B502AE94A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.georgie.FloatplaneApp-Operations";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5769B26D52CD025724324215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.georgie.FloatplaneApp-Operations";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5E0C3CFA29CF766800C71A19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -793,6 +1879,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = appletvos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TVOS_DEPLOYMENT_TARGET = 16.0;
@@ -847,6 +1934,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = appletvos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TVOS_DEPLOYMENT_TARGET = 16.0;
@@ -980,9 +2068,251 @@
 			};
 			name = Release;
 		};
+		6D87767ED43BADCCF1C1E3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.georgie.FloatplaneAppUtilities;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FA7236E3445E8E16B7AE5F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.georgie.FloatplaneAppUtilities;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0D51182045AEFECFFB1BBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.georgie.FloatplaneApp-Models";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3C93182ECE92C793F588433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DOCC_EXTRACT_OBJC_INFO_FOR_SWIFT_SYMBOLS = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.georgie.Kenmore-DataStores";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C685E69542FEA0770BBEE295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DOCC_EXTRACT_OBJC_INFO_FOR_SWIFT_SYMBOLS = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.georgie.Kenmore-DataStores";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C152A3C42F7EF161CECADEC /* Build configuration list for PBXNativeTarget "Kenmore-DataStores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C685E69542FEA0770BBEE295 /* Release */,
+				B3C93182ECE92C793F588433 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EFDE2484879B8225091EB4D /* Build configuration list for PBXNativeTarget "Kenmore-Utilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA7236E3445E8E16B7AE5F5 /* Release */,
+				6D87767ED43BADCCF1C1E3B4 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5E0C3CCD29CF766700C71A19 /* Build configuration list for PBXProject "Kenmore-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1019,14 +2349,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		93C2A109DBB872FF9F0CF8C5 /* Build configuration list for PBXNativeTarget "Kenmore-Operations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8AFF51EEC47B502AE94A36 /* Release */,
+				5769B26D52CD025724324215 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7E9FBF15927D825DD8F0BD0 /* Build configuration list for PBXNativeTarget "Kenmore-Models" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D51182045AEFECFFB1BBD9 /* Release */,
+				395640EDD07D3ED80B7D7F04 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5E5155D729EE7E58009B68EA /* XCRemoteSwiftPackageReference "AsyncObjects" */ = {
+		05680D039B3997DCF76B36A6 /* XCRemoteSwiftPackageReference "UICKeyChainStore" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SwiftyLab/AsyncObjects.git";
+			repositoryURL = "https://github.com/kishikawakatsumi/UICKeyChainStore.git";
 			requirement = {
-				branch = main;
+				branch = master;
 				kind = branch;
 			};
 		};
@@ -1062,45 +2410,34 @@
 				minimumVersion = 4.0.0;
 			};
 		};
-		5EBA28302A15E10E00F673BC /* XCRemoteSwiftPackageReference "Kenmore-Models" */ = {
+		EA44CE68AC5AB39FE0E1CA18 /* XCRemoteSwiftPackageReference "Cache" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:curiousurick/Kenmore-Models.git";
+			repositoryURL = "https://github.com/hyperoslo/Cache.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
 			};
 		};
-		5EBA28332A15E11900F673BC /* XCRemoteSwiftPackageReference "Kenmore-Utilities" */ = {
+		FCEC16AC9741FC16E1552BF4 /* XCRemoteSwiftPackageReference "swift-log" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:curiousurick/Kenmore-Utilities.git";
+			repositoryURL = "https://github.com/apple/swift-log.git";
 			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		5EBA28392A15E14000F673BC /* XCRemoteSwiftPackageReference "Kenmore-Operations" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:curiousurick/Kenmore-Operations.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		5EE031532CBDDEFB0028A0A8 /* XCRemoteSwiftPackageReference "Kenmore-DataStores" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:curiousurick/Kenmore-DataStores.git";
-			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5E5155E029EE7FB4009B68EA /* AsyncObjects */ = {
+		3C20EDC70DCF18701CF209DC /* Cache */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5E5155D729EE7E58009B68EA /* XCRemoteSwiftPackageReference "AsyncObjects" */;
-			productName = AsyncObjects;
+			package = EA44CE68AC5AB39FE0E1CA18 /* XCRemoteSwiftPackageReference "Cache" */;
+			productName = Cache;
+		};
+		3C8390A8FDA4ED902A92BA1D /* UICKeyChainStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05680D039B3997DCF76B36A6 /* XCRemoteSwiftPackageReference "UICKeyChainStore" */;
+			productName = UICKeyChainStore;
 		};
 		5E5155EA29EE7FB4009B68EA /* ParallaxView */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -1122,25 +2459,25 @@
 			package = 5E5155DF29EE7EE0009B68EA /* XCRemoteSwiftPackageReference "AlamofireImage" */;
 			productName = AlamofireImage;
 		};
-		5EE031442CBDD8A20028A0A8 /* Kenmore-Models */ = {
+		851FA59DE44932DE7AA4A160 /* AlamofireImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5EBA28302A15E10E00F673BC /* XCRemoteSwiftPackageReference "Kenmore-Models" */;
-			productName = "Kenmore-Models";
+			package = 5E5155DF29EE7EE0009B68EA /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
 		};
-		5EE031462CBDD8B00028A0A8 /* Kenmore-Utilities */ = {
+		B8039BA78A41045C49680DA1 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5EBA28332A15E11900F673BC /* XCRemoteSwiftPackageReference "Kenmore-Utilities" */;
-			productName = "Kenmore-Utilities";
+			package = 5E5155DE29EE7ED3009B68EA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
-		5EE0314A2CBDD8B00028A0A8 /* Kenmore-Operations */ = {
+		D97D5AA04879C0B58F41FE77 /* Logging */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5EBA28392A15E14000F673BC /* XCRemoteSwiftPackageReference "Kenmore-Operations" */;
-			productName = "Kenmore-Operations";
+			package = FCEC16AC9741FC16E1552BF4 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
 		};
-		5EE031542CBDDEFB0028A0A8 /* Kenmore-DataStores */ = {
+		FF0DC6E1FBA067191C5653FB /* Cache */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5EE031532CBDDEFB0028A0A8 /* XCRemoteSwiftPackageReference "Kenmore-DataStores" */;
-			productName = "Kenmore-DataStores";
+			package = EA44CE68AC5AB39FE0E1CA18 /* XCRemoteSwiftPackageReference "Cache" */;
+			productName = Cache;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

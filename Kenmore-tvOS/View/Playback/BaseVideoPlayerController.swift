@@ -26,6 +26,8 @@ import Kenmore_DataStores
 class BaseVideoPlayerViewController: AVPlayerViewController, AVPlayerViewControllerDelegate {
     let logger = Log4S()
     private var timeObserverToken: Any?
+    
+    private var bufferResetTimer: Timer?
 
     override var player: AVPlayer? {
         willSet {
@@ -52,6 +54,9 @@ class BaseVideoPlayerViewController: AVPlayerViewController, AVPlayerViewControl
     private func startObservingPlayer(_ player: AVPlayer?) {
         let timeScale = CMTimeScale(NSEC_PER_SEC)
         let updateInterval = CMTime(seconds: ProgressStore.updateInterval, preferredTimescale: timeScale)
+        player?.currentItem?.addObserver(self, forKeyPath: "playbackBufferEmpty", options: .new, context: nil)
+        player?.currentItem?.addObserver(self, forKeyPath: "playbackLikelyToKeepUp", options: .new, context: nil)
+        player?.currentItem?.addObserver(self, forKeyPath: "playbackBufferFull", options: .new, context: nil)
 
         player?.currentItem?.addObserver(self, forKeyPath: "status", options: .new, context: nil)
         timeObserverToken = player?.addPeriodicTimeObserver(
@@ -80,6 +85,8 @@ class BaseVideoPlayerViewController: AVPlayerViewController, AVPlayerViewControl
         let playerItem = object as! AVPlayerItem
         if keyPath == "status", playerItem.status == .failed {
             playbackFailed()
+        } else if keyPath == "playbackLikelyToKeepUp" || keyPath == "playbackBufferFull" {
+            
         }
     }
 }

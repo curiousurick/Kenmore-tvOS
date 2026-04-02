@@ -78,6 +78,10 @@ class VODPlayerViewController: BaseVideoPlayerViewController {
         }
         vodDelegate?.videoDidEnd(guid: guid)
     }
+    
+    override func playbackFailed() {
+        logger.info("Playback failed. State: \(player.debugDescription)")
+    }
 
     override func progressUpdate(time: CMTime) {
         let seconds = time.seconds

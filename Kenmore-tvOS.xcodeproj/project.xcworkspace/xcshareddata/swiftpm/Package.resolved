@@ -1,13 +1,13 @@
 {
-  "originHash" : "a9d61b8190631c11a0fd51712581dad1bd32b76caf1276e809c683828319870e",
+  "originHash" : "67eed6fa1e1bb6998c323da01a425aed354d4fb8776803ffdb8cd35732dd4705",
   "pins" : [
     {
       "identity" : "alamofire",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Alamofire/Alamofire.git",
       "state" : {
-        "revision" : "ea6a94b7dddffd0ca4d0f29252d95310b84dec84",
-        "version" : "5.10.0"
+        "revision" : "3f99050e75bbc6fe71fc323adabb039756680016",
+        "version" : "5.11.1"
       }
     },
     {
@@ -20,57 +20,12 @@
       }
     },
     {
-      "identity" : "asyncobjects",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SwiftyLab/AsyncObjects.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "8fa6219a5b9b76325d4eff7afcf4c60b50f3af8d"
-      }
-    },
-    {
       "identity" : "cache",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/hyperoslo/Cache.git",
       "state" : {
         "revision" : "ad6abdf2a3a866288a7dad2c4e13379406002a81",
         "version" : "6.2.0"
-      }
-    },
-    {
-      "identity" : "kenmore-datastores",
-      "kind" : "remoteSourceControl",
-      "location" : "git@github.com:curiousurick/Kenmore-DataStores.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "dd8b414e047a3ae73b3943208859eb324c5afa7d"
-      }
-    },
-    {
-      "identity" : "kenmore-models",
-      "kind" : "remoteSourceControl",
-      "location" : "git@github.com:curiousurick/Kenmore-Models.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "76bf6fabd45909dd4d96a248d611fcc768616856"
-      }
-    },
-    {
-      "identity" : "kenmore-operations",
-      "kind" : "remoteSourceControl",
-      "location" : "git@github.com:curiousurick/Kenmore-Operations.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "c5ee778d2444878b116be9a1a89136a67aed1a28"
-      }
-    },
-    {
-      "identity" : "kenmore-utilities",
-      "kind" : "remoteSourceControl",
-      "location" : "git@github.com:curiousurick/Kenmore-Utilities.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "b67cabc33015655c9615e3b89868c3d9d9060c87"
       }
     },
     {
@@ -83,21 +38,12 @@
       }
     },
     {
-      "identity" : "swift-collections",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-collections.git",
-      "state" : {
-        "revision" : "671108c96644956dddcd89dd59c203dcdb36cec7",
-        "version" : "1.1.4"
-      }
-    },
-    {
       "identity" : "swift-log",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-log.git",
       "state" : {
-        "revision" : "9cb486020ebf03bfa5b5df985387a14a98744537",
-        "version" : "1.6.1"
+        "revision" : "8c0f217f01000dd30f60d6e536569ad4e74291f9",
+        "version" : "1.11.0"
       }
     },
     {

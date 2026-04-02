@@ -21,7 +21,6 @@
 
 import UIKit
 import Alamofire
-import AsyncObjects
 import Kenmore_Models
 import Kenmore_Utilities
 import Kenmore_DataStores
@@ -48,8 +47,7 @@ final class SearchViewController: UIViewController, UISearchResultsUpdating, Con
     private var searchString: String?
     private var results: SearchResponse?
     private var collectionManager: BrowseCollectionManager!
-
-    private lazy var searchOperationQueue = TaskQueue()
+    private var currentSearchTask: Task<Void, Never>?
 
     @IBOutlet var collectionView: UICollectionView!
 
@@ -88,17 +86,15 @@ final class SearchViewController: UIViewController, UISearchResultsUpdating, Con
     }
 
     func search(searchString: String) {
-        searchOperationQueue.addTask { [weak self] in
-            guard let self = self else {
-                return
-            }
-            await self.logger.info("Getting results for \(searchString)")
-            await self.dataSource.searchResults = nil
-            let results = await self.fetchVideos(fetchAfter: 0, limit: self.collectionManager.pageLimit)
-            if let results = results {
-                await self.logger.info("Results for \(searchString) got \(results.count) results")
-                await self.collectionManager.setFeed(feed: results)
-            }
+        currentSearchTask?.cancel()
+        currentSearchTask = Task { @MainActor [weak self] in
+            guard let self, !Task.isCancelled else { return }
+            logger.info("Getting results for \(searchString)")
+            dataSource.searchResults = nil
+            let results = await fetchVideos(fetchAfter: 0, limit: collectionManager.pageLimit)
+            guard !Task.isCancelled, let results else { return }
+            logger.info("Results for \(searchString) got \(results.count) results")
+            collectionManager.setFeed(feed: results)
         }
     }
 
